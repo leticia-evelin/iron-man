@@ -1,0 +1,10 @@
+.character{
+    grid-area: product;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.character__image{
+    height: 60%;
+}
