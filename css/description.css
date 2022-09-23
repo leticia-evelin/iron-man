@@ -1,0 +1,41 @@
+.description{
+    grid-area: description;
+    flex-direction: column;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    font-weight: 400;
+}
+
+.description__title{
+     margin-right: 60vw; 
+    font-size: 1rem;
+    color: #505050;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.title{
+    /* margin-right: 80vw; */
+    /* align-items:center ; */
+    /* position: relative; */
+    color:#8A2D5E;
+    font-size: 5rem;
+    font-weight: 700;
+}
+.name{
+    /* margin-right: 60vw;  */
+    /* align-items: center; */
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+.description__text{
+    height: 250px; 
+    width: 400px;   
+    /* align-items: center; */
+    /* margin-left: 150px;    */
+    font-size: 1rem; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+}

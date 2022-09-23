@@ -13,12 +13,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="description.css">
-    <link rel="stylesheet" href="info.css">
-    <link rel="stylesheet" href="logo.css">
-    <link rel="stylesheet" href="social-media.css">
-    <link rel="stylesheet" href="social-icon.css">
-    <link rel="stylesheet" href="character.css">
+    <link rel="stylesheet" href="css/description.css">
+    <link rel="stylesheet" href="css/info.css">
+    <link rel="stylesheet" href="css/logo.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/social-media.css">
+    <link rel="stylesheet" href="css/social-icon.css">
+    <link rel="stylesheet" href="css/character.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/navegation.css">
+    <link rel="stylesheet" href="css/iron_main.css">
+    <link rel="stylesheet" href="css/question.css">
     <title>Iron Man</title>
 </head>
 <body>
@@ -32,22 +37,34 @@
             <span class = "info__celestials">Celestials</span>
             <span class ="info__about">About</span>
         </div>
-        <div class = "search">
-            <i class="fas fa-search"></i>
-        </div>
-        <div class = "square">
-            <i class="fas fa-th-large"></i>
-        </div>
-        <div class = "user">
-            <i class="far fa-user-circle"></i>
-        </div>
+        <ul class = "menu">
+            <li>
+                <a href="#" class ="menu_icon">
+                    <i class="fas fa-search"></i>
+                </a>
+            </li>
+        </ul>
+        <li>
+            <a href="#" class ="menu_icon">
+                <i class="fas fa-th-large"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#" class ="menu_icon">
+                <i class="far fa-user-circle"></i>
+            </a>
+        </li>
         
     </header>
     <main>
+        <span class="character">
+                <img src="./img/avengers-iron-man.png" alt="homem de ferro" class = "character__image">
+            </span> 
+        <span class = "iron_main">iron main</span> 
         <div class="description">
             <h4 class="description__title">
                 Marvel Character
-            </h4>
+            </h4>   
             <h1 class="title">
                 IRON MAN
             </h1>
@@ -57,9 +74,9 @@
             <p class="description__text">
                 Iron Man is a superhero appearing in American comic books published by Marvel Comics. Each of Tony’s suits provides a full range of telecommunications, sophisticated artificial intelligence capable of piloting Tony to safety should he be rendered unconscious.
             </p>
-            <!-- <div class="character">
-                <img src="./img/avengers-iron-man.png" alt="homem de ferro" class = "character__image">
-            </div> -->
+        </div>
+        <div class="question">
+            Are you Marvel fan?
         </div>
         <ul class="social-media">
             <li>

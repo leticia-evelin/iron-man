@@ -1,0 +1,14 @@
+.iron_main{
+    grid-area: body;
+    display:flex;
+    justify-content: flex-end; 
+    padding-left: 400px;
+    display: grid; 
+    place-items:end;
+    color: #8A2D5E80;
+    font-size: 6rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+   transform: rotate(-90deg);
+    
+}
