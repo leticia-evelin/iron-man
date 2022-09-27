@@ -4,39 +4,37 @@
     box-sizing: border-box;
 }
 body{
-    height: 140vh;
+    height: 100vh;
     background-color:#fff;
     display: grid;
     grid-template-areas:
         "header"
         "main"
         "footer";
-        grid-template-rows:  150px 1fr 150px;
+        grid-template-rows:  100px 1fr 100px; 
         padding-right: 100px;
         font-family: 'Poppins', sans-serif;
 }
 header{
     grid-area: header;
-    margin-left: 50px; 
-    margin-right: 10px; 
     display: flex;
-    justify-content:space-between;
+    justify-content:space-between; 
     align-items: center; 
 }
 
 main{
     grid-area: main;
-    height: 160vh; 
+    height: 1fr;
     background-color: #fff;
     display: grid;
-    grid-template-rows:
-        "navegation description social";
-        grid-template-columns: 50px 4fr 50px;
-    padding-right: 140px; 
+    grid-template-areas:
+        "social description character";
+        grid-template-columns: 50px 1fr 400px;
+    padding-left: 100px; 
 }
 footer{
      color: #383838;
-     height: 25px; 
+     height: 30px; 
     flex-direction: row-reverse;
     background-color: #fff;
     grid-area: footer;

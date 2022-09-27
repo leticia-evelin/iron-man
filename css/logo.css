@@ -1,15 +1,12 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+
 .logo{
-    height: 100px;
-    width: 100px;
+    height: 70px; 
+    width: 30vw; 
     color:#fff;
     font-size: 2.5rem;
-    display: grid;
-    place-items: center;
-    margin-right: 30px;
-    margin-left: 2px;
+    display: flex;
+    justify-content: center; 
+    /* place-items: center; */
+    /* margin-right: 30px; */
+    /* margin-left: 2px; */
 }
