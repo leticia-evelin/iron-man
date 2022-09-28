@@ -1,5 +1,5 @@
     .question{
-        grid: description;
+        grid: description; 
         width: 362px;
         height: 50px; 
         display: flex;
@@ -8,6 +8,6 @@
         font-size: 1rem;
         font-weight: 25px;
         justify-content: center; 
-        align-items: center;  
+        align-items: center;
         /* font-weight: 200; */
     }

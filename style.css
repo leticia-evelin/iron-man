@@ -5,31 +5,33 @@
 }
 body{
     height: 100vh;
-    background-color:#fff;
+    /* background-color:#fff; */
     display: grid;
     grid-template-areas:
         "header"
         "main"
         "footer";
-        grid-template-rows:  100px 1fr 100px; 
-        padding-right: 100px;
+        grid-template-rows:  100px 2fr 50px; 
+        padding-right: 100px; 
         font-family: 'Poppins', sans-serif;
 }
 header{
     grid-area: header;
     display: flex;
     justify-content:space-between; 
-    align-items: center; 
+    align-items: center;
+    flex-direction: row; 
 }
 
 main{
-    grid-area: main;
-    height: 1fr;
+    grid-area: main; 
+    height: 1fr; 
     background-color: #fff;
     display: grid;
-    grid-template-areas:
-        "social description character";
-        grid-template-columns: 50px 1fr 400px;
+    justify-content: flex-start;
+    grid-template-areas: 
+        "social description character"; 
+        grid-template-columns: 50px 1fr 1fr; 
     padding-left: 100px; 
 }
 footer{

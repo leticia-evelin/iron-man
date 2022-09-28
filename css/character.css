@@ -1,12 +1,17 @@
 .character{
-    grid-area: character;
+    grid-area: character; 
+    /* position:relative;  */
     display: flex;
-    height: 120vh;
-    width: 250px;
+    height: 600px;
+    width: 40vh;   
     flex-direction: column;
     justify-content: center;
-    /* align-items:flex-end; */
+    align-items:flex-end; 
 }
 .character__image{
-    height: 80%;
+    display: flex;
+    /* height: 70%; */
+    position: relative;
+    height: 520px;
+    width: 200px;  
 }

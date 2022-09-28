@@ -1,5 +1,5 @@
 .social-media{
-    grid-area: social;
+    grid-area: social; 
     font-size: 2rem;
     display: flex;
     flex-direction: column;

@@ -1,5 +1,5 @@
 .description{
-    grid-area: description;
+    grid-area: description; 
     flex-direction: column;
     display: flex;
     justify-content: center; 

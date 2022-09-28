@@ -1,10 +1,10 @@
 .iron_main{
-    grid-area: character;
+    grid-area: character; 
     display:flex;
     justify-content: flex-end;  
-    /* padding-left: 400px;  */
+    /* padding-right: 400px;  */
     display: flex; 
-    place-items:end;
+    place-items:end; 
     color: #8A2D5E80;
     font-size: 5rem;
     font-weight: 700;
